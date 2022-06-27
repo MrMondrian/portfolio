@@ -1,0 +1,83 @@
+.navbar {
+    background: black;
+    color:white;
+}
+
+.nav-main {
+    display: flex;
+    position: relative;
+    justify-content: space-between;    
+    align-items: center;
+    padding:0.4rem;
+}
+
+
+.navbar .name {
+    margin: 1rem;
+}
+
+.navbar span {
+    color: var(--color-grey);
+    font-weight: 300;
+}
+
+.links {
+    height:100%;
+}
+
+.links ul {
+    padding: 0;
+    display:flex;
+}
+
+.links li a {
+    display: block;
+    padding:1rem;
+}
+
+.links li a:visited {
+    color: white;
+}
+
+.links li:hover {
+    background: #555;
+}
+
+.hidden-links {
+    display:none;
+}
+
+.hidden-links ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.hidden-links li{
+    text-align: center;
+    padding:0.5rem;
+}
+
+.hidden-links li:hover{
+    background: #555;
+}
+
+.hidden-links a:visited {
+    color:white;
+}
+
+
+
+.hamburger-container {
+    display:none;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .links {
+        display:none;
+    }
+    .hamburger-container , .hidden-links {
+        display: block;
+    }
+}
+
