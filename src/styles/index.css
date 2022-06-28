@@ -10,7 +10,7 @@
 }
 
 :root {
-    --color-white: #f8ffe5;
+    --color-white: white;
     --color-teal: #2ebfa5;
     --color-oragne: #ff8427;
     --color-grey: #4f6367;
@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
 }
 
 h2 {
@@ -46,5 +46,11 @@ h2 {
 body{
     background: var(--color-grey);
     font-family: 'Roboto Mono', monospace;
-    color: black;
+    color: var(--color-white);
+}
+
+.btn {
+    padding: 0.6rem;
+    background: var(--color-teal);
+    border-radius: 0.5rem;
 }

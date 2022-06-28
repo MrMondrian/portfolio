@@ -1,0 +1,20 @@
+.about_container {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.about_text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about_btns {
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_btn {
+    margin-top: 1rem;
+}

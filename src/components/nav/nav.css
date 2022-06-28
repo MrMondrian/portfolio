@@ -1,6 +1,6 @@
 .navbar {
     background: black;
-    color:white;
+    color:var(--color-white);
 }
 
 .nav-main {
@@ -36,7 +36,7 @@
 }
 
 .links li a:visited {
-    color: white;
+    color: var(--color-white);
 }
 
 .links li:hover {
@@ -62,7 +62,7 @@
 }
 
 .hidden-links a:visited {
-    color:white;
+    color:var(--color-white);
 }
 
 
