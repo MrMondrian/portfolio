@@ -1,0 +1,9 @@
+.projects_container {
+    text-align: center;
+}
+
+.projects_list {
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: column;
+}

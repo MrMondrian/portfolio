@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    font-size:1.5rem;
+    font-size: 3rem;
 }
 
 body{
@@ -53,4 +53,14 @@ body{
     padding: 0.6rem;
     background: var(--color-teal);
     border-radius: 0.5rem;
+}
+
+section {
+    margin-top: 10rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
