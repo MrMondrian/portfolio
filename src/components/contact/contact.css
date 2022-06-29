@@ -20,6 +20,11 @@
     margin-bottom:2rem;
 }
 
+.contact_btn {
+    width: 8rem;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 800px) {
     .form_input {
         width: 85%;
