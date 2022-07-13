@@ -13,6 +13,7 @@
     padding: 0.8rem;
     background: rgba(225,225,225,0.5);
     border: 2px solid white;
+    transition: none;
 }
 
 .contact_header {
