@@ -13,7 +13,7 @@ const data = {
 
 const projects = () => {
   return (
-    <section>
+    <section id='projects'>
         <div className='projects_container'>
             <h2>Projects</h2>
             <div className="projects_list">
