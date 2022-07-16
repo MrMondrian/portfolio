@@ -1,0 +1,18 @@
+.experience_container {
+    text-align: left;
+    margin: 1rem;
+}
+
+.experience_first_header span {
+    font-weight: 300;
+}
+
+.experience_second_header {
+    font-weight: 400;
+}
+
+.experience_content {
+    margin-top: 0.5rem;
+    position: relative;
+    left: 15px;
+}

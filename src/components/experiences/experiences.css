@@ -1,0 +1,22 @@
+.experiences_container {
+    text-align: center;
+}
+
+.experiences_list {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1130px) {
+    .experiences_list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .experiences_list {
+        grid-template-columns: 1fr;
+    }
+}
