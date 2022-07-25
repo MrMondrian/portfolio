@@ -1,12 +1,14 @@
 .experiences_container {
     text-align: center;
+    width:100%;
 }
 
 .experiences_list {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
+    column-gap: 2rem;
 }
 
 @media screen and (max-width: 1130px) {

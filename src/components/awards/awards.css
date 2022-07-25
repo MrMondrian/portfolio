@@ -1,0 +1,11 @@
+.awards_container {
+    text-align: center;
+    padding: padding;
+}
+
+.awards_list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

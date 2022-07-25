@@ -1,0 +1,17 @@
+.award_container {
+    text-align: left;
+}
+
+.award_first_header span {
+    font-weight: 300;
+}
+
+.award_second_header {
+    font-weight: 400;
+}
+
+.award_content {
+    margin-top: 0.5rem;
+    position: relative;
+    left: 15px;
+}

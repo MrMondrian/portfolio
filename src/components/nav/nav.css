@@ -1,6 +1,7 @@
 .navbar {
     background: black;
     color:var(--color-white);
+    list-style: none;
 }
 
 .nav-main {
