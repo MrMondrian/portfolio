@@ -16,3 +16,13 @@
     position: relative;
     left: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .experience_container {
+        text-align: center;
+    }
+
+    .experience_content {
+        left: 0;
+    }
+}

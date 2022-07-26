@@ -30,11 +30,11 @@ const experience2 = {
     'Maintained and expanded upon a pipeline for fetching and parsing genomic data']
 }
 const experience3 = {
-  title: 'Intern',
-  when: 'Summer 2020',
-  location: 'Univeristy of Manitoba Bioinformatics Lab',
-  bullets: ['Developed a citizen science game in Unity',
-   'Created a frontend for a research database']
+  title: 'Tutor',
+  when: 'January 2022 -',
+  location: 'McGill University',
+  bullets: ['Independently tutored University Students in Math and Computer Science',
+  'Ex: Honours algorithms and Data Structures, Programming langauges and Paradigms, Introduction to Computer Science']
 }
 
 const data = [experience1,experience2,experience3]
