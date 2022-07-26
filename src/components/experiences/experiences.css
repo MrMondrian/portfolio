@@ -1,6 +1,6 @@
 .experiences_container {
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 .experiences_list {
@@ -8,7 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    column-gap: 2rem;
 }
 
 @media screen and (max-width: 1130px) {
@@ -17,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .experiences_list {
         grid-template-columns: 1fr;
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './award.css'
 
-const award = ({title,when,location,bullets}) => {
+const award = ({title,when,location,bullets, index}) => {
     return (
       <article>
           <div className='award_container'>
@@ -10,7 +10,7 @@ const award = ({title,when,location,bullets}) => {
               <div className='award_content'>
                   <ul>
                       {bullets.map((bullet) => {
-                          return <li>{bullet}</li>
+                          return <li key='index'>{bullet}</li>
                       })}
                   </ul>
               </div>

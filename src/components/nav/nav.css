@@ -1,7 +1,6 @@
 .navbar {
     background: black;
     color:var(--color-white);
-    list-style: none;
 }
 
 .nav-main {
@@ -29,6 +28,8 @@
 .links ul {
     padding: 0;
     display:flex;
+    list-style: none;
+
 }
 
 .links li a {
@@ -51,6 +52,7 @@
 .hidden-links ul{
     display:flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .hidden-links li{
