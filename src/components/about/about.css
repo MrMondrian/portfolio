@@ -1,6 +1,8 @@
 .about_container {
     margin-top: 10rem;
     text-align: center;
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .about_text {
@@ -19,6 +21,7 @@
     margin-top: 1rem;
     color: black;
     font-size: 13px;
+    font-family: Arial;
 }
 
 .socials {

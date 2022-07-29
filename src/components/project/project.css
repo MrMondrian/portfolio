@@ -19,6 +19,16 @@
     gap: 1rem;
 }
 
+.project_buttons {
+    display:flex;
+    justify-content: center;
+}
+
+.project_buttons a {
+    font: 13px Arial;  
+    color: black;
+}
+
 @media screen and (max-width: 1024px) {
     .project_content {
         grid-template-columns: 1fr;
