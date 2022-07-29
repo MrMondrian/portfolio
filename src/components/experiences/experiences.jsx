@@ -34,10 +34,20 @@ const experience3 = {
   when: 'January 2022 -',
   location: 'McGill University',
   bullets: ['Independently tutored University Students in Math and Computer Science',
-  'Ex: Honours algorithms and Data Structures, Programming langauges and Paradigms, Introduction to Computer Science']
+  'Ex: Honours Algorithms and Data Structures, Programming Langauges and Paradigms, Introduction to Computer Science']
 }
 
-const data = [experience1,experience2,experience3]
+const experience4 = {
+  title: 'Code Sensei',
+  when: 'Summer 2022',
+  location: 'Code Ninjas Winnipeg',
+  bullets: ['Taught coding skills to kids',
+  'Helped kids with coding projects',
+  'Created Minecraft mods designed to entertain kids',
+  'Watched 25 kids, ensured they were having fun and safe']
+}
+
+const data = [experience2,experience1,experience4,experience3]
 
 const experiences = () => {
   return (
