@@ -18,8 +18,10 @@ const project1 = {
 const project2 = {
   title: 'Arcade Shooter Game',
   video: ArcadeVideo,
-  info: 'It is an arcade shooter built in java that features a mix of 2d and 3d graphics',
-  buttons: []
+  info: 'This is an arcade style shooter I built in java that features a mix of 2d and 3d graphics. I built it using the processing library \
+  which runs on top of OpenGL. To create this project, I utilized various types of animation such as sinusodial interpolation, particle systems, \
+  colision checking, texture mapping and more.',
+  buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/Comp-3490-assignment-3'}]
 }
 
 const tags = [<Project {...project1}/>, <ProjectVideo {...project2}/>]

@@ -6,7 +6,7 @@ const project = ({title, info, picture,buttons}) => {
 
   const the_buttons = []
   buttons.forEach((bt) => {
-    the_buttons.push(<a className='btn'>{bt.text}</a>)
+    the_buttons.push(<a className='btn' href={bt.link} target='_blank'>{bt.text}</a>)
   })
   return (
     <article>
@@ -30,7 +30,7 @@ const project = ({title, info, picture,buttons}) => {
 const ProjectVideo = ({title, info, video,buttons}) => {
     const the_buttons = []
     buttons.forEach((bt) => {
-        the_buttons.push(<a className='btn'>{bt.text}</a>)
+        the_buttons.push(<a className='btn' href={bt.link} target='_blank'>{bt.text}</a>)
     })
     return (
         <article>
