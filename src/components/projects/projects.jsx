@@ -6,6 +6,7 @@ import '../project/project.css'
 import GeSortPicture from '../../assets/GeSort2.png'
 import ArcadePicture from '../../assets/Arcade.png'
 import ArcadeVideo from '../../assets/ArcadeVideo.mp4'
+import GeneticVideo from '../../assets/Genetic.mp4'
 
 const project1 = {
   title: 'GeSort',
@@ -24,7 +25,17 @@ const project2 = {
   buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/Comp-3490-assignment-3'}]
 }
 
-const tags = [<Project {...project1}/>, <ProjectVideo {...project2}/>]
+const project3 = {
+  title: 'Genetic Algorithm Word Guesser',
+  video: GeneticVideo,
+  info: 'This is a python script I wrote (with help from a professor) that uses a genetic algorithm to guess a word given by the User. \
+  It works by first generating 10000 random strings and measuring how close they all are. The ones with below average closeness are discarded \
+  and the rest are "cross bread" to create the strings that are closer than the previous generation. This is repeated until one of the words is \
+  correct.',
+  buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/Comp-3490-assignment-3'}]
+}
+
+const tags = [<Project {...project1}/>, <ProjectVideo {...project2}/>, <ProjectVideo {...project3}/>]
 
 const projects = () => {
   return (
