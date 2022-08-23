@@ -47,6 +47,8 @@ body{
     background: var(--color-grey);
     font-family: 'Roboto Mono', monospace;
     color: var(--color-white);
+    height: 100%;
+    margin: 0;
 }
 
 .btn {

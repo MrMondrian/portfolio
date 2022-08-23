@@ -1,0 +1,17 @@
+#footer {
+    background: black;
+    display:flex;
+    justify-content: center;
+    height:180px;
+    margin:0;
+}
+
+#footer p {
+    position: relative;
+    top: 85px;
+}
+
+#footer a {
+    text-decoration: none;
+    color:white;
+}
