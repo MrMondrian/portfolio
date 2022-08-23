@@ -3,6 +3,16 @@ import './about.css'
 import resume from '../../assets/AnthonyTanResume.pdf'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
+import {DiPython} from 'react-icons/di'
+import {DiJava} from 'react-icons/di'
+import {DiJavascript1} from 'react-icons/di'
+import {SiCplusplus} from 'react-icons/si'
+import {DiHtml5} from 'react-icons/di'
+import {DiCss3} from 'react-icons/di'
+import {DiReact} from 'react-icons/di'
+import {SiOcaml} from 'react-icons/si'
+import {DiUnitySmall} from 'react-icons/di'
+
 
 const about = () => {
   return (
@@ -12,6 +22,17 @@ const about = () => {
             <div className='socials'>
               <a href='https://github.com/MrMondrian' target='_blank'><FaGithub size={23}/></a>
               <a href='https://www.linkedin.com/in/anthony-tan-29a868203/' target='_blank'><BsLinkedin size={23}/></a>
+            </div>
+            <div className="skills">
+              <DiPython/>
+              <DiJava/>
+              <DiUnitySmall/>
+              <DiJavascript1/>
+              <SiCplusplus/>
+              <DiHtml5/>
+              <DiCss3/>
+              <DiReact/>
+              <SiOcaml/>
             </div>
 
             <p className='about_text'>I'm a fourth year computer science student at McGill.

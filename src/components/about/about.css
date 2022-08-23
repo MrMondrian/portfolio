@@ -31,3 +31,19 @@
     margin-top: 0.3rem;
     margin-bottom: 0.4rem;
 }
+
+.socials > * {
+    text-decoration: none;
+}
+
+.skills {
+    margin:1rem;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+}
+
+.skills > * {
+    font-size: 2rem;
+    color: midnightblue
+}

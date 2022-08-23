@@ -11,6 +11,9 @@
     padding:0.4rem;
 }
 
+a {
+    text-decoration: none;
+}
 
 .navbar .name {
     margin: 1rem;
