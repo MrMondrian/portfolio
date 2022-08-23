@@ -1,6 +1,6 @@
 import React from 'react'
 import './projects.css'
-import Project, {ProjectVideo} from '../project/project'
+import Project, {ProjectVideo} from '../project/Project'
 import '../project/project.css'
 
 import GeSortPicture from '../../assets/GeSort2.png'
@@ -37,7 +37,7 @@ const project3 = {
 
 const tags = [<Project {...project1}/>, <ProjectVideo {...project2}/>, <ProjectVideo {...project3}/>]
 
-const projects = () => {
+const Projects = () => {
   return (
     <section id='projects'>
         <div className='projects_container'>
@@ -52,4 +52,4 @@ const projects = () => {
   )
 }
 
-export default projects
+export default Projects

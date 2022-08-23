@@ -14,7 +14,7 @@ import {SiOcaml} from 'react-icons/si'
 import {DiUnitySmall} from 'react-icons/di'
 
 
-const about = () => {
+const About = () => {
   return (
     <section id='about'>
         <div className="about_container">
@@ -50,4 +50,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

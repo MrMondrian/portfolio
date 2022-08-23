@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './awards.css'
-import Award from '../award/award'
+import Award from '../award/Award'
 
 const award1 = {
     title: 'Best Paper Award',

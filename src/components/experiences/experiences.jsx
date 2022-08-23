@@ -1,7 +1,7 @@
 import React from 'react'
 import './experiences.css'
 
-import Experience from '../experience/experience'
+import Experience from '../experience/Experience'
 
 const experience1 = {
   title: 'Intern',
@@ -49,7 +49,7 @@ const experience4 = {
 
 const data = [experience2,experience1,experience4,experience3]
 
-const experiences = () => {
+const Experiences = () => {
   return (
     <section id='experiences'>
         <div className='experiences_container'>
@@ -70,4 +70,4 @@ const experiences = () => {
   )
 }
 
-export default experiences
+export default Experiences

@@ -1,7 +1,7 @@
 import React from 'react'
 import './experience.css'
 
-const experience = ({title,when,location,bullets}) => {
+const Experience = ({title,when,location,bullets}) => {
   return (
     <article>
         <div className='experience_container'>
@@ -19,4 +19,4 @@ const experience = ({title,when,location,bullets}) => {
   )
 }
 
-export default experience
+export default Experience

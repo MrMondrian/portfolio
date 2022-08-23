@@ -1,7 +1,7 @@
 import React from 'react'
 import './award.css'
 
-const award = ({title,when,location,bullets, index}) => {
+const Award = ({title,when,location,bullets, index}) => {
     return (
       <article>
           <div className='award_container'>
@@ -19,4 +19,4 @@ const award = ({title,when,location,bullets, index}) => {
     )
 }
 
-export default award
+export default Award

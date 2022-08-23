@@ -2,7 +2,7 @@ import React from 'react'
 import './project.css'
 
 
-const project = ({title, info, picture,buttons}) => {
+const Project = ({title, info, picture,buttons}) => {
 
   const the_buttons = []
   buttons.forEach((bt) => {
@@ -53,5 +53,5 @@ const ProjectVideo = ({title, info, video,buttons}) => {
     )
 }
 
-export default project
+export default Project
 export {ProjectVideo}
