@@ -79,7 +79,7 @@ const Awards = () => {
     setSeeMore(!seeMore)
   }
   return (
-    <section id='#awards'>
+    <section id="awards">
         <div className='awards_container'>
             <h2>Awards</h2>
             <div className="awards_list_container">

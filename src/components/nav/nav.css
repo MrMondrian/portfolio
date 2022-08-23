@@ -19,6 +19,10 @@ a {
     margin: 1rem;
 }
 
+.navbar h2 {
+    font-size: 2rem;
+}
+
 .navbar span {
     color: var(--color-grey);
     font-weight: 300;
@@ -78,7 +82,7 @@ a {
     margin: 1rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     .links {
         display:none;
     }

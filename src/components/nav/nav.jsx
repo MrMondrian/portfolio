@@ -21,6 +21,8 @@ const Nav = () => {
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experiences">Experience</a></li>
+            <li><a href="#awards">Awards</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -32,6 +34,8 @@ const Nav = () => {
             <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Projects</a></li>
+              <li><a href="#experiences">Experience</a></li>
+              <li><a href="#awards">Awards</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
