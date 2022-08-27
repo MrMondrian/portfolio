@@ -37,7 +37,7 @@ const ProjectVideo = ({title, info, video,buttons}) => {
             <div className='project_container'>
                 <h3>{title}</h3>
                 <div className='project_content'>
-                    <video width="370" height="370"className='project_vid' controls loop autoplay>
+                    <video width="370" height="370"className='project_img project_vid' controls loop autoplay>
                         <source src={video} type="video/mp4"/>
                     </video>
                     <div className='project_info'>
