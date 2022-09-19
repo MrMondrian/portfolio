@@ -27,7 +27,7 @@ const Project = ({title, info, picture,buttons}) => {
   )
 }
 
-const ProjectVideo = ({title, info, video,buttons}) => {
+const ProjectVideo = ({title, info, video,buttons,image}) => {
     const the_buttons = []
     buttons.forEach((bt) => {
         the_buttons.push(<a className='btn' href={bt.link} target='_blank'>{bt.text}</a>)
@@ -39,6 +39,7 @@ const ProjectVideo = ({title, info, video,buttons}) => {
                 <div className='project_content'>
                     <video width="370" height="370"className='project_img project_vid' controls loop autoplay>
                         <source src={video} type="video/mp4"/>
+                        <img src={image}></img>
                     </video>
                     <div className='project_info'>
                         <p className='project_info_text'>{info}</p>

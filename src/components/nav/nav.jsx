@@ -32,11 +32,11 @@ const Nav = () => {
         <div className='nav-hidden'>
           <div className="hidden-links">
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#experiences">Experience</a></li>
-              <li><a href="#awards">Awards</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <a href="#about"><li>About</li></a>
+              <a href="#projects"><li>Projects</li></a>
+              <a href="#experiences"><li>Experience</li></a>
+              <a href="#awards"><li>Awards</li></a>
+              <a href="#contact"><li>Contact</li></a>
             </ul>
           </div>
         </div> : <></>

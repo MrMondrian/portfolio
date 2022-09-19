@@ -40,7 +40,7 @@ const award5 = {
 }
 
 const award6 = {
-    title: 'UM Entrance Scholarship – Tier 1',
+    title: 'Univeristy of Mantioba Entrance Scholarship – Tier 1',
     when: 'September 2019',
     location: 'University of Manitoba',
     bullets: ['Awarded for high academic achievement in high school']
@@ -48,15 +48,15 @@ const award6 = {
 
 const award7 = {
     title: 'Bell MTS Scholarships',
-    when: 'October 2021 (declined)',
+    when: 'October 2021 (declined because of univeristy transfer)',
     location: 'University of Manitoba',
     bullets: ['Awarded for high academic achievement']
 }
 
 
 const award8 = {
-    title: 'UMSU Scholarship',
-    when: 'July 2021 (declined)',
+    title: 'Univeristy of Manitoba Students Union Scholarship',
+    when: 'July 2021 (declined because of univeristy transfer)',
     location: 'University of Manitoba',
     bullets: ['Awarded for high academic achievement']
 }

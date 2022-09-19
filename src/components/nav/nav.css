@@ -69,6 +69,7 @@ a {
 }
 
 .hidden-links li:hover{
+    transition: var(--transition);
     background: #555;
 }
 
@@ -83,7 +84,7 @@ a {
     margin: 1rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1150px) {
     .links {
         display:none;
     }

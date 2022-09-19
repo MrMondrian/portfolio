@@ -12,6 +12,7 @@ import {DiCss3} from 'react-icons/di'
 import {DiReact} from 'react-icons/di'
 import {SiOcaml} from 'react-icons/si'
 import {DiUnitySmall} from 'react-icons/di'
+import {SiCsharp} from 'react-icons/si'
 
 
 const About = () => {
@@ -27,8 +28,10 @@ const About = () => {
               <DiPython/>
               <DiJava/>
               <DiUnitySmall/>
-              <DiJavascript1/>
               <SiCplusplus/>
+              <SiCsharp/>
+              <DiUnitySmall/>
+              <DiJavascript1/>
               <DiHtml5/>
               <DiCss3/>
               <DiReact/>
@@ -42,6 +45,7 @@ const About = () => {
             <div className='about_btns'>
                 <a href={resume} target='_blank' className='btn about_btn'>My Resume</a>
                 <a href='https://dl.acm.org/doi/10.1145/3472538.3472554' target='_blank' className='btn about_btn'>A paper I worked on</a>
+                <a href='https://www.worldscientific.com/doi/10.1142/S0219720021400072' target='_blank' className='btn about_btn'>Another paper I worked on</a>
                 <a href='#contact' className='btn about_btn'>Want to get in touch?</a>
             </div>
             

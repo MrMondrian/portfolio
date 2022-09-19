@@ -7,6 +7,7 @@ import GeSortPicture from '../../assets/GeSort2.png'
 import ArcadePicture from '../../assets/Arcade.png'
 import ArcadeVideo from '../../assets/ArcadeVideo.mp4'
 import GeneticVideo from '../../assets/Genetic.mp4'
+import GeneticPicture from '../../assets/Genetic_Moment.png'
 
 const project1 = {
   title: 'GeSort',
@@ -19,20 +20,22 @@ const project1 = {
 const project2 = {
   title: 'Arcade Shooter Game',
   video: ArcadeVideo,
-  info: 'This is an arcade style shooter I built in java that features a mix of 2d and 3d graphics. I built it using the processing library \
+  image: ArcadePicture,
+  info: 'This is an arcade-style shooter I built in java that features a mix of 2D and 3D graphics. I built it using the processing library \
   which runs on top of OpenGL. To create this project, I utilized various types of animation such as sinusodial interpolation, particle systems, \
-  colision checking, texture mapping and more.',
+  collision checking, texture mapping and more.',
   buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/Comp-3490-assignment-3'}]
 }
 
 const project3 = {
   title: 'Genetic Algorithm Word Guesser',
   video: GeneticVideo,
-  info: 'This is a python script I wrote (with help from a professor) that uses a genetic algorithm to guess a word given by the User. \
+  image: GeneticPicture,
+  info: 'This is a python script I wrote (with help from a professor) that uses a genetic algorithm to guess a word given by the user. \
   It works by first generating 10000 random strings and measuring how close they all are. The ones with below average closeness are discarded \
-  and the rest are "cross bread" to create the strings that are closer than the previous generation. This is repeated until one of the words is \
+  and the rest are "crossbred" to create the strings that are closer than the previous generation. This is repeated until one of the words is \
   correct.',
-  buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/Comp-3490-assignment-3'}]
+  buttons: [{text: 'Source Code', link:'https://github.com/MrMondrian/GeneticWordGuesser'}]
 }
 
 const tags = [<Project {...project1}/>, <ProjectVideo {...project2}/>, <ProjectVideo {...project3}/>]
