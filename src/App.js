@@ -1,10 +1,10 @@
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
-import Contact from './components/contact/Contact'
-import Experiences from './components/experiences/Experiences'
-import Awards from './components/awards/Awards'
-import Footer from './components/footer/Footer'
+import Nav from './components/nav/nav'
+import About from './components/about/about'
+import Projects from './components/projects/projects'
+import Contact from './components/contact/contact'
+import Experiences from './components/experiences/experiences'
+import Awards from './components/awards/awards'
+import Footer from './components/footer/footer'
 
 import {useEffect} from 'react'
 

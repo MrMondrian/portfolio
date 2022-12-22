@@ -1,33 +1,23 @@
 import React from 'react'
 import './experiences.css'
 
-import Experience from '../experience/Experience'
+import Experience from '../experience/experience'
 
-const experience1 = {
-  title: 'Intern',
-  when: 'Summer 2020',
-  location: 'University of Manitoba Bioinformatics Lab',
-  bullets: ['Developer for a citizen science game in Unity called GeSort',
-  'Fixed many bugs and maintained codebase',
-  'Added features such as a progression system and an undo button',
-  'Developer for a frontend for a research database and GeSort',
-  'Allows research team to more easily analyze data',
-  'Allows researchers to easily edit levels within GeSort',
-  'Added users and security layer']
-}
 const experience2 = {
   title: 'Intern',
-  when: 'Summer 2021',
+  when: 'May 2020 - August 2020 & May 2021 - August 2021',
   location: 'University of Manitoba Bioinformatics Lab',
-  bullets: ['Co-authored a paper about the project presented at the International Conference on the\
-    Foundations of Digital Games',
-    'Won Best Paper Award',
-    'Continued work on GeSort',
+  bullets: ['Developed a citizen science game in Unity for solving bioinformatics problems',
     'Shrunk build size to improve download times',
     'Created a version playable as a windows application',
     'Began development on a mobile version',
+    'Created security for a server containing experiment data using Bcrypt and JsonWebToken',
+    'Designed and developed a frontend for the server for easy data visualization',
+    'Used MongoDB to maintain a backend for the server',
     'Worked on BOPAL 2, an algorithm for inferring ancestral gene orders of bacteria genomes',
-    'Maintained and expanded upon a pipeline for fetching and parsing genomic data']
+    'Expanded upon a pipeline for fetching and parsing genomic data with BioPython',
+    'Co-authored 2 papers, one of which was presented at the International Conference on the Foundations of Digital\
+    Games. Won “Best Paper Award”']
 }
 const experience3 = {
   title: 'Tutor',
@@ -39,7 +29,7 @@ const experience3 = {
 
 const experience4 = {
   title: 'Code Sensei',
-  when: 'Summer 2022',
+  when: 'May 2022 - August 2022',
   location: 'Code Ninjas Winnipeg',
   bullets: ['Taught coding skills to kids',
   'Helped kids with coding projects',
@@ -47,7 +37,18 @@ const experience4 = {
   'Watched 25 kids, ensured they were having fun and being safe']
 }
 
-const data = [experience2,experience1,experience4,experience3]
+const experience5 = {
+  title: 'Team member',
+  when: 'September 2022 - Present',
+  location: 'McGill robotics team',
+  bullets: ['Wrote software for an autonomous underwater vehicle (AUV) using ROS, Python, C++, and Arduino code',
+  'Assisted in deploying and testing the AUV',
+  'Worked with electrical engineers to integrate sensors into the robot’s software system',
+  'Created a package for publishing state measurements from an IMU',
+  'Used CMake and Catkin to build ROS packages for the AUV']
+}
+
+const data = [experience5,experience4,experience3,experience2]
 
 const Experiences = () => {
   return (

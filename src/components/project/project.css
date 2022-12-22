@@ -33,6 +33,7 @@
 .project_buttons {
     display:flex;
     justify-content: center;
+    gap: 1rem;
 }
 
 .project_buttons a {
