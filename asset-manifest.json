@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b00bbeb0.css",
-    "main.js": "/portfolio/static/js/main.87d251f5.js",
+    "main.js": "/portfolio/static/js/main.ff2a4107.js",
     "static/media/ArcadeVideo.mp4": "/portfolio/static/media/ArcadeVideo.f4db6c43f0d8a461a7f9.mp4",
     "static/media/auv.png": "/portfolio/static/media/auv.8f4ccb43910240a73917.png",
     "static/media/GeSort2.png": "/portfolio/static/media/GeSort2.7035d1b3575f63bc6fcf.png",
     "static/media/Genetic.mp4": "/portfolio/static/media/Genetic.297a78475fc81f7d692f.mp4",
     "static/media/Genetic_Moment.png": "/portfolio/static/media/Genetic_Moment.e2f6ea5fa08764d7145f.png",
     "static/media/Arcade.png": "/portfolio/static/media/Arcade.a306be6fdeca24a94c52.png",
-    "static/media/AnthonyTanResume.pdf": "/portfolio/static/media/AnthonyTanResume.17f0c731a90f7d500101.pdf",
+    "static/media/AnthonyTanResume.pdf": "/portfolio/static/media/AnthonyTanResume.97b57810ad413604d7bb.pdf",
     "static/media/xray.jpeg": "/portfolio/static/media/xray.a6da89aadb45b48fb04b.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b00bbeb0.css.map": "/portfolio/static/css/main.b00bbeb0.css.map",
-    "main.87d251f5.js.map": "/portfolio/static/js/main.87d251f5.js.map"
+    "main.ff2a4107.js.map": "/portfolio/static/js/main.ff2a4107.js.map"
   },
   "entrypoints": [
     "static/css/main.b00bbeb0.css",
-    "static/js/main.87d251f5.js"
+    "static/js/main.ff2a4107.js"
   ]
 }
