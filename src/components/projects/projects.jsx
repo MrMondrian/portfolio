@@ -9,6 +9,7 @@ import ArcadeVideo from '../../assets/ArcadeVideo.mp4'
 import GeneticVideo from '../../assets/Genetic.mp4'
 import GeneticPicture from '../../assets/Genetic_Moment.png'
 import AUVPicture from '../../assets/auv.png'
+import XrayPicture from '../../assets/xray.jpeg'
 
 const project1 = {
   title: 'GeSort',
@@ -50,7 +51,22 @@ const project4 = {
   buttons: [{text: 'Source code', link:'https://github.com/mcgill-robotics/AUV-2023'},
   {text: 'McGill Robotics website', link: 'https://www.mcgillrobotics.org/'}]
 }
-const tags = [<Project {...project4}/>,<Project {...project1}/>, <ProjectVideo {...project2}/>, <ProjectVideo {...project3}/>]
+
+const project5 = {
+  title: 'X-ray Image Classifier',
+  picture: XrayPicture,
+  info: 'The X-ray Image Classifier is a project I made to classify chest x-ray images as either normal or pneumoia. It uses a convolutional neural network\
+  I designed and implemented in tensorflow. I was insprired to do this project after taking a graduate level course in machine learning. \
+  I really enjoyed the course and wanted to apply my the knowledge I obtained on an interesting project.\
+  I chose to make an x-ray image classifier for two reasons. Firstly, I wanted to get more hands on experience with convolution as I find\
+  it super cool, and didn\'t feel that the course I took was enough to confidently design CNNs. After working on the project I\'m much more\
+  more confident with CNNs. Secondly, my dad is a doctor who works with chest x-ray images, and thought it would be nice to do a project he could relate to.',
+  buttons: [{text: 'Source code', link:'https://github.com/MrMondrian/xray-classifier'},
+  {text: 'The dataset', link:'https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/code?datasetId=17810&sortBy=voteCount'}]
+
+}
+
+const tags = [<Project {...project4}/>,<Project {...project1}/>, <Project {...project5}/>,<ProjectVideo {...project2}/>, <ProjectVideo {...project3}/>]
 
 const Projects = () => {
   return (
