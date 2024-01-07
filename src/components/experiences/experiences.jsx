@@ -4,7 +4,7 @@ import './experiences.css'
 import Experience from '../experience/experience'
 
 const experience2 = {
-  title: 'Intern',
+  title: 'Software Development Intern',
   when: 'May 2020 - August 2020 & May 2021 - August 2021',
   location: 'University of Manitoba Bioinformatics Lab',
   bullets: ['Developed a citizen science game in Unity for solving bioinformatics problems',
@@ -38,17 +38,32 @@ const experience4 = {
 }
 
 const experience5 = {
-  title: 'Team member',
+  title: 'Team Lead',
   when: 'September 2022 - Present',
-  location: 'McGill robotics team',
-  bullets: ['Wrote software for an autonomous underwater vehicle (AUV) using ROS, Python, C++, and Arduino code',
-  'Assisted in deploying and testing the AUV',
-  'Worked with electrical engineers to integrate sensors into the robot’s software system',
-  'Created a package for publishing state measurements from an IMU',
-  'Used CMake and Catkin to build ROS packages for the AUV']
+  location: 'McGill Robotics Team',
+  bullets: ['Wrote software for an autonomous underwater vehicle (AUV) for control systems, navigation, state \
+  estimation, computer vision, mission planning, mapping, and simulation.',
+  'Created extensive documentation and an automatic integration testing pipeline',
+  'Dockerized the project and deployed containers to remote servers for robotics simulations.',
+  'Taught robotics skills to new members and organized tasks in accordance with Agile.']
 }
 
-const data = [experience5,experience4,experience3,experience2]
+const experience6 = {
+  title: 'Software Development Intern',
+  when: 'May 2023 - August 2023',
+  location: 'Distributed Digital Music Archives & Libraries Lab',
+  bullets: ['Developed software for automatic music recognition with Tensorflow/OpenCV']
+}
+
+const experience7 = {
+  title: 'Software Development Intern',
+  when: 'September 2023 - December 2023',
+  location: 'Transport Canada',
+  bullets: ['Implemented an alert system on multiple .NET applications.']
+
+}
+
+const data = [experience5,experience7,experience6,experience4,experience3,experience2]
 
 const Experiences = () => {
   return (

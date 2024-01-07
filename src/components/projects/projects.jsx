@@ -46,9 +46,11 @@ const project4 = {
   picture: AUVPicture,
   info: 'The AUV is a project I\'ve had the pleasure of working on as part of the McGill robotics team. \
   This robot is deisgned to compete in the AUVSI RoboSub Competition where competing robots must perform a variety of tasks\
-  underwater fully autonomously. My role in this project as a software developer is writing code for the robot, mostly in form of ROS packages,\
-  and integrating hardware provided by our electrical team into the AUV\'s software systems.',
-  buttons: [{text: 'Source code', link:'https://github.com/mcgill-robotics/AUV-2023'},
+  underwater fully autonomously. My role in this project as a software team lead involces writing code for the robot, setting up Docker envirnoments, \
+  teaching new members, organizing tasks, and integrating hardware provided by our electrical team into the AUV\'s software systems. \
+  Some of the systems I\'ve worked on include control systems, navigation, state estimation, computer vision, mission planning, mapping, and simulations \
+  in Unity/Gazebo.',
+  buttons: [{text: 'Source code', link:'https://github.com/mcgill-robotics/AUV-2024'},
   {text: 'McGill Robotics website', link: 'https://www.mcgillrobotics.org/'}]
 }
 
